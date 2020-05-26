@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="piostyle.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="Pizzeria Pio" content="text/html" charset=utf-8" />
+    <meta name='viewport' content='width=device-width' initial-scale=1.0'>
+    <title>Pizzeria Pio</title>
+  </head>
+
+  <body>
+    <header class='mainheader'>
+        <h1 class='logo'>Pizzeria Pio</h1>
+        <nav>
+            <ul>
+                <li><a  href='pioindex.html'>Naslovna</a></li>
+                <li><a  href='onama.html'>O nama</a></li>
+                <li><a href='jelovnik.html'>Jelovnik</a></li>
+                <li><a class='active' href='rezervacije.html'>Rezervacije</a></li>
+                <li><a href='kontakt.html'>Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="reservation">
+        <h1>Rezervirajte & uživajte u hrani</h1>
+        <h2>Potvrditi ćemo Vašu rezervaciju putem mobitela.</h2>
+        <p>Rezervacija stolova za poslovne ručkove, krstitke, godišnjice, rođendane,
+             momačke i djevojačke večeri, catering i manje svadbe… </p>
+     
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class='formcont'>
+        <form action='reserved.html' method='GET'> 
+            <label>Ime:</label>
+                <input type="text" name='ime' required>
+            
+            
+            <label>Prezime:</label>  
+                <input type="text" name='prezime' required>
+            
+           
+            <label>Mobitel:</label>
+                <input type='tel' name="mob" required>
+            
+            
+            <label>E-mail:</label> 
+                <input type="email" name='email' required>
+            <br>
+            <br>
+
+            <label>Datum:</label> 
+                <input type="date" name='date' required>
+            
+            <label>Vrijeme:</label> 
+                <input type='time' name='time' min='11:00' max='22:00' required>
+            
+                        
+
+            <label>Broj mjesta: </label> 
+                <input type="number" name='number' min='1' max='200' required>
+           
+            <br><br>
+            <label>Lokacija: Trešnjevka</label>
+            <input type='radio' name='location' value='tresnjevka' required>
+            <label>Lokacija: Špansko</label>
+            <input type='radio' name='location' value='špansko' required><br>
+            <br>
+            <button type="submit">Rezerviraj</button>
+            
+        </form>
+    </div>
+
+    <div class='footercont'>
+        <footer class='footer'>
+          <p class='footertxt'>Kotaktirajte nas: 098/9599 755; pizeriapio@gmail.com</p>
+          <br>
+          <p class='footertxt'>Pizzeria Pio d.o.o. za ugostiteljstvo, turizam i usluge, Zlatarska 16, Zagreb,
+            Hrvatska <br> | OIB: 07039833352 | MBS: 08888888, Trgovački sud u Zagrebu | Temeljni kapital: 20.000 kn, uplaćen u cijelosti
+            <br>Direktor: Ivan Glozinić | Žiro račun: HR3323600001101516450, Zagrebačka banka d.d.</p>
+        </footer>
+        </div>
+    
+      </body>
+    </html>

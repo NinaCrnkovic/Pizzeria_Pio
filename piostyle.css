@@ -1,0 +1,478 @@
+/*style for all pages - navigation bar, footer*/
+@font-face {
+    font-family: 'Kaushan Script';
+    src: url(KaushanScript-Regular.ttf) format('truetype')
+  }
+html{
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+    font-size: 87.5%;
+    font-family: 'Segoe script', 'Kaushan Script', Arial, serif;
+    line-height: 1.5;
+    text-align: center;
+    width: 100%
+
+}
+
+.mainheader{
+    width: 100%;
+    border-bottom: 2px white;
+    border-style: double;
+    position: fixed;
+    background-color: black;
+    top: 0;
+}
+
+.logo{
+    color: white;
+    padding: 0px 35px 0px 5px;
+    font-size: 35px;
+    font-family: 'Segoe script', Arial;
+    font-weight: bold;
+    width: 20%;
+    height: auto;
+    margin: 0%, 3%;
+    float: left
+}
+
+.mainheader nav ul {
+    list-style: none;
+    margin: 0 auto;
+
+}
+.mainheader nav ul li{
+    float: left;
+    text-align: center;
+
+}
+.mainheader nav a:link, .mainheader nav a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 20px 25px;
+    font-size: 30px;
+    font-family: 'Segoe script', Arial;
+    width:200px;
+    height: 90px;
+    line-height: 90px;
+
+}
+.mainheader nav a:hover {
+    background-color: gray;
+    text-shadow: none;
+ } 
+
+.mainheader nav ul li a{
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+.footercont{
+    
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid whitesmoke;
+}
+
+.footertxt{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+/*style for naslovna page*/
+.piccont{
+    width: 100%;
+    height: auto;
+}
+.mainpic{
+    width: 100%;
+    height: auto;
+}
+.wmessage{
+    width: 100%;
+    height: auto;
+}
+.wmessage h2{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+.wmessage p{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+/*style for o nama page*/
+
+
+.about{
+    margin-top: 150px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    color: whitesmoke;
+
+
+    
+
+}
+.about h1{
+    color: whitesmoke;
+    width: auto;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+  
+   
+}
+
+.about h2{
+    color: whitesmoke;
+    width: auto;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+  
+   
+}
+.about p{
+    color: whitesmoke;
+    width: auto;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+  }
+.aboutpic ul li{
+    display: inline;
+  
+
+}
+.help{
+    border-radius: 15px;
+    border: 2px double gray;
+}
+
+
+
+/*style for jelovnik page*/
+.menu{ 
+    margin-top: 120px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 130px;
+    display: block;
+    background-image: url(back12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.menu h1{
+    color: white;
+    width: auto;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 40px;
+  
+   
+}
+
+.tablecont{
+    color: whitesmoke;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.table{
+    color: whitesmoke;
+    width: 60%;
+    margin: 0 auto;
+    background-color: black;
+    font-size: 15px;
+    
+}
+.tablerow{
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+td{
+    border-bottom: 1px solid lightgrey;
+    padding: 0 20px;
+}
+.name {
+    text-align: left;
+    width: 60%;
+
+}
+.ing{
+    text-align: left;
+    color: grey;
+    width: 60%;
+
+    
+}
+.price{
+    text-align: right;
+
+
+}
+
+.bigbox{
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    align-items: center; 
+    justify-content:center; 
+
+
+}
+.slika-box {
+    display: block;
+    width: 300px;
+    margin: 10px;
+
+  
+}
+
+.slika {
+    height: 250px;
+    width: 290px;
+    border-radius: 100%;
+}
+span{
+    color:white;
+
+}
+
+/*style for rezervacije page*/
+.reservation{
+    margin-top: 150px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+  
+   
+
+}
+.reservation h1{
+    color: white;
+    width: auto;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+  
+   
+}
+
+.reservation h2{
+    color: white;
+    width: auto;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+  
+   
+}
+.reservation p{
+    color: white;
+    width: auto;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+  
+   
+}
+
+.formcont{
+    width:100%;
+    margin: 0 auto;
+    color: red;
+
+}
+label{
+    color: red;
+    margin: 5px;
+    padding: 5px;
+}
+button{
+    background-color: grey;
+    color: red;
+    border-radius: 20px;
+    border-color: red;
+    font-size: 20px;
+}
+button:hover{
+    background-color: red;
+    color:black;
+}
+
+/*style for kontakt page*/
+.contact{
+    margin-top: 150px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+  
+
+    
+
+}
+.contact h1{
+    color: white;
+    width: auto;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+  
+   
+}
+
+.contact h2{
+    color: white;
+    width: auto;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+  
+   
+}
+.about p{
+    color: white;
+    width: auto;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+  
+   
+}
+
+  
+   
+
+.locations {
+
+    width: 100%;
+    height: auto;
+    margin: 40px auto 40px auto;
+    display: block;
+    padding-top: 20px;
+
+}
+
+.locations-text {
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 0px;
+    color: whitesmoke;
+    font-size: 40px;
+  
+}
+
+.box-locbox {
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: center; 
+    justify-content:center; 
+    margin-top: 15px;
+ 
+   
+}
+.locbox {
+    width: 50%px;
+    height: auto;
+    margin: 10px;
+    background-color: black;
+    opacity: 1;
+    display: inline;
+    font-size: 15px;
+    color:whitesmoke;
+ 
+}
+.locbox h3{
+    font-size: 30px;
+    
+}
+
+/*style for reserved page*/
+.bodyres{
+    background-color: black;
+    color: black;
+}
+.rescheck{
+    margin-top: 700px;
+    font-size: 40px;
+    color: whitesmoke;
+    text-decoration: none;
+ 
+}
+
+/*responsive style */
+@media only screen and (max-width: 800px){
+    .mainheader{
+
+   
+        position: static;
+        background-color: black;
+        top: 0;
+        height: 33rem;
+        margin: 0 auto;
+  
+        
+    }
+    
+    .logo{
+      
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin:0 auto;
+     
+    }
+    
+    
+    .mainheader nav ul li{
+        width:100%;
+        height: 10%;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    
+    }
+    .mainheader nav a:link, .mainheader nav a:visited{
+        text-align: center;
+        width:100%;
+        height: 100%;
+        font-size: 20px;
+        padding: 2px;
+        margin: 0 auto;
+      
+        
+        
+    
+    }
+  
+    
+}

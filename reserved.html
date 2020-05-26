@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="piostyle.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="Pizzeria Pio" content="text/html; charset=utf-8" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Reserved</title>
+  </head>
+  <body class='bodyres'>
+    <div id='reserved'></div>
+        <a class='rescheck' href='pioindex.html'>Rezervirano! Povratak na početnu stranicu.</a>
+        <script>
+            const resultsList= document.getElementById('reserved')
+            new URLSearchParams(window.location.search).forEach((value, name)=>{
+                resultsList.append(`${name}: ${value}`);
+                resultsList.append(document.cereateElement('br'));
+  })
+        </script>
+    </body>
+  </html>
